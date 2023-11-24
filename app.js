@@ -4,6 +4,8 @@ var outputdiv = document.querySelector("#output-div");
 
 // console.log(btnTranslate);
 var url = "https://api.funtranslations.com/translate/minion.json";
+// var url="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+
 console.log(url);
 
 
@@ -24,8 +26,7 @@ function clickHandler() {
     // console.log(json))
     {   //outputdiv.innerText = textInput.value;
          outputdiv.innerText = json.contents.translated;
-    })
-        .catch(() => alert("some error occured"));
+    }).catch(() => alert("some error occured"));
 
     //outputdiv.innerText = "  xyz is banana translation of " + textInput.value;
     //outputdiv.innerText= "The translation of "+textInput.value+"krishna";
