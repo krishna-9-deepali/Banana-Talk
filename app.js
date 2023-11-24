@@ -27,7 +27,7 @@ function clickHandler() {
     })
         .catch(() => alert("some error occured"));
 
-    outputdiv.innerText = "  xyz is banana translation of " + textInput.value;
+    //outputdiv.innerText = "  xyz is banana translation of " + textInput.value;
     //outputdiv.innerText= "The translation of "+textInput.value+"krishna";
 }
 btnTranslate.addEventListener("click", clickHandler)
